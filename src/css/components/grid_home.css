@@ -1,0 +1,36 @@
+ /* Grid-Section 
+  the CSS code includes some basic styles for the grid section, grid layout, grid items, headings, paragraphs, and images, as well as some mobile-first design principles to ensure that the website is responsive on smaller screens. */
+
+  .grid-section {
+    background-color: white;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    padding: 40px;
+  }
+  
+  .grid-item {
+    text-align: center;
+  }
+  
+  .grid-item h2 {
+    color: black;
+    font-size: 24px;
+    margin: 0;
+    margin-top: 20px;
+  }
+  
+  .grid-item p {
+    color: black;
+    font-size: 16px;
+  }
+  
+  .grid-item img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* End Grid Section */
