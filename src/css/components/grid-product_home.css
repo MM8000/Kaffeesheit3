@@ -1,0 +1,57 @@
+/* Grid-Product Section PROBLEM*/
+
+.grid-section2 {
+    background-color: black;
+    color: white;
+    text-align: left;
+  }
+  
+  .grid-section2 h2 {
+    padding: 20px 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .grid2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    padding: 40px;
+  }
+  
+  .grid-item2 {
+    text-align: center;
+  }
+  
+  .grid-item2 img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
+  .grid-item2 h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .grid-item2 p {
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  .coffee-icons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .coffee-icons i {
+    color: white;
+    font-size: 2em;
+}
+
+/* End Grid Section */
